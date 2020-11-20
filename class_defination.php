@@ -4,15 +4,24 @@
 class Cars {
 //Class defination
 
+    //Declaring properties or attributes
+    var $wheel_count = 4;
+    var $door_count = 4;
+    //in class we have to write var to say php that i am creating variable
+
     //method are function declared in  class
     function greeting(){
     //class is blueprint of an object
 
         echo "Hello!!"."<br>";
+
+        
     }
 
-    /*function greeting2(){
-    }*/
+    function wheeldetails(){
+         //pseudo variable
+        return "This car has " . $this->wheel_count . "Wheels.";//means class car -> whele count
+    }
 }
 
 //Class instance
@@ -22,9 +31,11 @@ $tata = new Cars();
 //calling methods from class
 $bmw -> greeting();
 
+//calling properties and also printing it
+echo $bmw->wheel_count;
 
-
-
+//pseudo print
+echo $tata->wheeldetails();
 
 
 
