@@ -6,24 +6,37 @@ class Cars {
 
     //method are function declared in  class
     function greeting(){
-    //function is blueprint of an object
+    //class is blueprint of an object
 
+        echo "Hello!!"."<br>";
     }
 
-        function greeting2(){
-    //function is blueprint of an object
-
-    }
-
+    /*function greeting2(){
+    }*/
 }
+
+//Class instance
+$bmw = new Cars();
+$tata = new Cars();
+
+//calling methods from class
+$bmw -> greeting();
+
+
+
+
+
+
+
+
 
 
 //php keeps track of methods
 
-$the_methods = get_class_methods('Cars');//have to give parameters
+/*$the_methods = get_class_methods('Cars');//have to give parameters
 foreach ($the_methods as $method) {
     echo $method ." <br>";
-}
+}*/
 
 
 
