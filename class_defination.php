@@ -32,7 +32,7 @@ $tata = new Cars();
 $bmw -> greeting();
 
 //calling properties and also printing it
-echo $bmw->wheel_count;
+
 
 //pseudo print
 echo $tata->wheeldetails();
@@ -58,6 +58,20 @@ foreach ($my_classes as $class) {
     echo $class ." <br>";
 }*/
 
+
+
+//inheritance
+
+class Trucks extends Cars{
+
+var $wheeldetails = 10;
+
+}
+
+
+$tacoma = new Trucks();
+echo "<br>";
+echo $tacoma->wheeldetails;
 ?>
 
 
