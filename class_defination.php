@@ -72,6 +72,16 @@ var $wheeldetails = 10;
 $tacoma = new Trucks();
 echo "<br>";
 echo $tacoma->wheeldetails;
+
+
+
+
+//access control modifiers -> special progam in php control flow over modifiers
+//public private protected
+//public  modifier available to whole program
+//private  restricted to only that class
+//protected accesible to subclasses
+
 ?>
 
 
