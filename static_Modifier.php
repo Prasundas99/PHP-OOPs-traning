@@ -7,6 +7,9 @@ class Cars{
     //We can add ststic to methods too
     static function car_details(){
         echo Cars:: $wheel_count . "is the car";
+
+        //Refering parent class in static property
+        echo self:: $wheel_count . "For satic";
     }
 }
 
@@ -24,5 +27,9 @@ echo Cars::$door_count;
 echo "<br>";
 //calling method in static
 Cars::car_details();
+
+
+//Refering parent class in static property
+
 
 ?>
