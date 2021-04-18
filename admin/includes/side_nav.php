@@ -11,6 +11,9 @@
                         <a href="Upload.php"><i class="fa fa-fw fa-table"></i> Upload</a>
                     </li>
                     <li>
+                        <a href="Photos.php"><i class="fa fa-fw fa-table"></i> Photos</a>
+                    </li>
+                    <li>
                         <a href="Comments.php"><i class="fa fa-fw fa-edit"></i> Comments</a>
                     </li>
                    
