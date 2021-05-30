@@ -1,0 +1,2 @@
+session cookies used to carry over variables between different pages
+
