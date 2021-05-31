@@ -1,2 +1,7 @@
-session cookies used to carry over variables between different pages
+session cookies used to carry over variables between different pages.
 
+Sessions are stored on server not on user computer
+
+
+
+cookies are stored on user's computer
