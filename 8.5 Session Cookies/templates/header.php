@@ -12,6 +12,10 @@ if($_SERVER['QUERY_STRING'] == 'noname'){
 //Null Coalescing
 $name = $_SESSION['name']?? 'Guest';
 
+
+//Get Cookie
+$mail = $_COOKIE['mail'];
+
 ?>
 
 
