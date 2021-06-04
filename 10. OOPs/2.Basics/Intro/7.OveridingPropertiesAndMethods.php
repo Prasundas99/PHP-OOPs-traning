@@ -58,7 +58,7 @@ class AdminUser extends User
         $this->level = $level;
     }
 
-    public function message()
+    public function message()  //overiding
     {
         return "an admin sent a new message";
     }
