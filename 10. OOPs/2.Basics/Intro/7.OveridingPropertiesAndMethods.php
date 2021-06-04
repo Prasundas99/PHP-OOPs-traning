@@ -63,10 +63,9 @@ class AdminUser extends User
         return "an admin sent a new message";
     }
 }
-
-$userOne = new User('mario', 'mario@thenetninja.co.uk');
-$userTwo = new User('luigi', 'luigi@thenetninja.co.uk');
-$userThree = new AdminUser('yoshi', 'yoshi@thenetninja.co.uk', 5);
+$userOne = new User('prasun', 'prasun@google.com');
+  $userTwo = new User('das', 'das@google.com');
+  $userThree = new AdminUser('admin', 'admin@google.com', 5);
 
 echo $userOne->role . '<br>';
 echo $userThree->role . '<br>';

@@ -1,20 +1,33 @@
 <?php 
 
-/*Since we are not getting email asadmin as our email is private we are declaring it as protected
-Protected is similar to private
-cannot be used outside of class but can be called
+/*
+Magic methods are clone and destructs
 
+destruct -> Opposite of contruct
+The clone keyword is used to create a copy of an object.
 */
+
+
+
+
   class User {
 
     public $username;
-    protected $email;  //Change made
+    protected $email;
     public $role = 'member';
 
     public function __construct($username, $email){
       //$this->username = 'ken';
       $this->username = $username;
       $this->email = $email;
+    }
+
+    public function __destruct(){
+      echo "the user $this->username was removed <br>";
+    }
+
+    public function __clone(){
+      $this->username = $this->username . ' (cloned)';
     }
 
     public function addFriend(){
@@ -60,10 +73,9 @@ cannot be used outside of class but can be called
   $userTwo = new User('das', 'das@google.com');
   $userThree = new AdminUser('admin', 'admin@google.com', 5);
 
-  echo $userOne->message() . '<br>';
-  echo $userThree->message() . '<br>'; 
-
-  //echo $userOne->email . '<br>';
+  //unset($userOne);
+  $userFour = clone $userOne;
+  echo $userFour->username . '<br>';
 
 ?>
 
