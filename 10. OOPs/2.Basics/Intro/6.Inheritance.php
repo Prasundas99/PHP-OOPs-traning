@@ -47,6 +47,11 @@ The Strawberry class also has its own method: message().
 
 */
 
+
+
+
+//Here we have a user and an admin access to
+// A admin has all access of user + some additional benifits
 class User
 {
 
