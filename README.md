@@ -1,4 +1,9 @@
-# PHP-OOPs-traning
+# PHP-MVC-OOPs-Design pattern
+
+PHP Object Oriented Programming principles by coding along on this "php oop mvc without framework" project,  Content Management System using modern OOP patterns. 
+
+I have tried the non-oop solution first, and then show when and how we can benefit from OOP solutions. 
+
 •  1: HTML
 
 •  2: Css With Web Design
@@ -27,6 +32,9 @@
 
 •  14: Forms Cookies And Sessions
 
-•  15: Php OOPs(Object Oriented Programing)
+•  15: Php OOPs(Object Oriented Programing) and MVC design pattern
 
 •  16: Project
+
+•  17: PHP unit testing
+
